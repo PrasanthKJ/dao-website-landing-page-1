@@ -10,7 +10,7 @@ Technology used     : **HTML5, CSS**
 
 ### Blog Demo:
 
-![DAO website landing page thumbnail](#)
+![DAO website landing page thumbnail](https://github.com/PrasanthKJ/dao-website-landing-page-1/blob/main/5.png)
 
 ---
 ### P.S
