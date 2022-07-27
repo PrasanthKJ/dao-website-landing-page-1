@@ -1,0 +1,98 @@
+* {
+  font-family: Montserrat;
+  color: #ffffff;
+}
+
+body {
+  background-color: #000000;
+}
+
+.container {
+}
+
+.navbar {
+  max-width: 90vw;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+}
+
+.navbar div:first-child {
+  border-right: solid #ffffff 1px;
+  padding-right: 100px;
+}
+
+.logo {
+  height: 40px;
+}
+
+.navbar .grow-list {
+  flex-grow: 2;
+}
+
+.navbar .grow-list .list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 16px;
+}
+
+.navbar .grow-list .list .list-item {
+  list-style: none;
+  margin-left: 30px;
+}
+.navbar .grow-list .list .list-item:first-child::after {
+  content: "";
+  background-image: url("");
+}
+
+.navbar .grow-list .list .list-item .list-dropdown {
+  margin-left: 10px;
+}
+
+/*button*/
+.button-small,
+.button-large {
+  font-size: 16px;
+  padding: 10px 25px;
+  background-color: #ba0cc5;
+  border-radius: 10px;
+  border: none;
+}
+.button-small {
+  font-size: 16px;
+}
+.button-large {
+  font-size: 30px;
+  widows: 100%;
+  margin: 0% auto;
+}
+
+/*hero*/
+.hero {
+  background: url("./assets/bg.png");
+  background-size: 100vw 80vh;
+  padding-top: 20vh;
+  height: calc(80vh - 110px);
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-heading {
+  text-align: center;
+  font-size: 75px;
+  max-width: 70%;
+  margin: 0% auto;
+}
+
+.hero-description {
+  font-size: 30px;
+  max-width: 70%;
+  margin: 0% auto;
+  text-align: center;
+  padding-bottom: 70px;
+}
